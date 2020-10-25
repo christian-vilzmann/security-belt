@@ -12,10 +12,11 @@
   bottom: -8px;
 }
 
-.mdc-tab-bar__indicator{
+.mdc-tab-bar__indicator {
   background: $text-color;
 }
 
-.mdc-ripple-upgraded::before, .mdc-ripple-upgraded::after {
-  background-color: hsla(0,0%,100%,.33) !important;
+.mdc-ripple-upgraded::before,
+.mdc-ripple-upgraded::after {
+  background-color: darkred (0, 0%, 100%, 0.33) !important;
 }

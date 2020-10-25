@@ -1,0 +1,6 @@
+title: Security
+description: You have to consider security aspects in your architecture
+requiredSkills:
+  - input_validation
+  - tls_everywhere
+  - strong_passwords

@@ -1,33 +1,41 @@
-$mdc-theme-primary: #3F51B5;
-$mdc-theme-accent: #FF5722;
+$mdc-theme-primary: darkred;
+$mdc-theme-accent: #ff5722;
 $mdc-theme-background: #263238;
 
-@import '~normalize.css/normalize';
+@import "~normalize.css/normalize";
 
-@import '~@material/theme/mdc-theme';
-@import '~@material/typography/mdc-typography';
-@import '~@material/toolbar/mdc-toolbar';
-@import '~@material/layout-grid/mdc-layout-grid';
-@import '~@material/tabs/mdc-tabs';
-@import '~@material/button/mdc-button';
+@import "~@material/theme/mdc-theme";
+@import "~@material/typography/mdc-typography";
+@import "~@material/toolbar/mdc-toolbar";
+@import "~@material/layout-grid/mdc-layout-grid";
+@import "~@material/tabs/mdc-tabs";
+@import "~@material/button/mdc-button";
 @import "~@material/card/mdc-card";
 @import "~@material/list/mdc-list";
 @import "~@material/elevation/mdc-elevation";
 @import "~@material/ripple/mdc-ripple";
-@import '~roboto-fontface/css/roboto/roboto-fontface';
+@import "~roboto-fontface/css/roboto/roboto-fontface";
 
-$text-color: #FAFAFA;
+$text-color: #fafafa;
 
-@import 'icon-sizes';
-@import 'belts';
-@import 'buttons';
-@import 'badges';
-@import 'toolbar';
-@import 'card-grid';
-@import 'leaderboard';
-@import 'skills';
+@import "icon-sizes";
+@import "belts";
+@import "buttons";
+@import "badges";
+@import "toolbar";
+@import "card-grid";
+@import "leaderboard";
+@import "skills";
 
-body, a, p, h1, h2, h3, h4, .mdc-card__title, .skill-section {
+body,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+.mdc-card__title,
+.skill-section {
   color: $text-color;
 }
 
@@ -38,7 +46,8 @@ body, a, p, h1, h2, h3, h4, .mdc-card__title, .skill-section {
 }
 
 // Layout
-.mdc-toolbar__row, .page__content {
+.mdc-toolbar__row,
+.page__content {
   max-width: 1312px;
   padding: 0 16px;
   margin: 0 auto;
@@ -54,7 +63,8 @@ body, a, p, h1, h2, h3, h4, .mdc-card__title, .skill-section {
   margin-right: 10px;
 }
 
-a, u {
+a,
+u {
   text-decoration: none !important;
 }
 

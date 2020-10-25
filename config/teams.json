@@ -20,6 +20,13 @@
         "name": "Ernie",
         "email": "ernie@example.com"
      }
+    },
+    {
+      "name":"D2D",
+      "champion":{"name":"Rocky",
+      "email":"rocky@muellergroup.com"}
     }
+    
+
   ]
 }
